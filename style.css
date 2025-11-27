@@ -197,19 +197,18 @@ nav {
   color: #000;
 }
 
-/* Sötét háttér az egész oldalnak */
+
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
 }
 
-/* Sötét kártyák */
 body.dark-mode .card {
-  background-color: #1e1e1e; /* Sötét szürke kártya */
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Kicsit világosabb árnyék */
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
-/* Sötét kártya szövegek */
+
 body.dark-mode .card-info h3 {
   color: #fff;
 }
